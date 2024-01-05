@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    h1>Safadometro<h1>
+
+        <form action = "safadometro.php" method="get" >
+         
+            <input type = "date" placeholder = "Informe sua data de nascimento " name = "campo_dia">
+            <br/>
+            
+    
+            <input type = "submit" value = "calcular">
+    
+        </form>
+         
+        <img src = "https://br.web.img2.acsta.net/c_310_420/pictures/17/06/22/21/16/082721.jpg" >
+        <img src = "https://br.web.img2.acsta.net/c_310_420/pictures/17/06/22/21/16/082721.jpg" >
+</body>
+</html>
