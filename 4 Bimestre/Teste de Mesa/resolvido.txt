@@ -1,0 +1,76 @@
+EXERCÍCIO 1
+
+VALOR DE $i -> 0;1;2
+CONSOLE ->1-22-333
+
+EXERCÍCIO 2
+
+VALOR DE $i -> 0;1;2;3;4;5;6
+CONSOLE -> 1:Cristo Redentor
+           2:Chichén Itzá
+           3:Coliseu
+           4:Muralha da China
+           5:Petra
+           6:Machu Picchu          
+           7:Taj Mahal
+
+EXERCÍCIO  3 
+
+VALOR DE  $i -> 0;1;2
+CONSOLE ->O valor buscado está entre as maravilhas
+
+EXERCÍCIO 4
+
+VALOR DE $i (primeiro for) -> 0;1;2;3;4;5
+VALOR DE $j -> 0;1;2;3;4
+VALOR DE $i (segundo for) -> 0;1;2;3;4;5
+CONSOLE -> 4 - 7 - 11 - 25 - 33 - 47 -  
+
+EXERCÍCIO 8 (O sort não funciona da maneira que está no pdf, então dei um sort e logo após fiz o foreach do array e deu o seguinte resultado no teste 4)
+ sort($lista_frutas);
+    foreach($lista_frutas as $key => $val) {
+        echo $key . "=" . $val ."\n";
+    
+(Na função shuffle precisei fazer o mesmo)
+print "\nTeste 5: ";
+    shuffle($lista_frutas);
+    foreach($lista_frutas as $key => $val) {
+        echo $key . "=" . $val ."\n";
+    }
+
+CONSOLE --> ]
+Teste 0:int(4)
+Teste 1:bool(true)
+Teste 2:bool(false)
+Teste 3:int(3)
+Teste 4:
+0=abacaxi
+1=banana
+2=melão
+3=morango
+Teste 5:
+0=morango
+1=abacaxi
+2=melão
+3=banana
+
+EXERCÍCIO 9 (fiz o mesmo que no anterios para o sort)
+
+CONSOLE:
+TESTE 0:int(5)
+TESTE 1:bool(true)
+TESTE 2:bool(false)
+TESTE 3:bool(false)
+TESTE 4:bool(true)
+TESTE 5:string(4) "nome"
+TESTE 6:string(9) "profissao"
+TESTE 7:
+0 = 1.8
+1 = 54
+2 = Astronauta
+3 = Físico
+4 = John Doe
+
+
+
+
